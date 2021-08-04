@@ -14,6 +14,15 @@ networks:
   bsc:
     explorer: https://www.bscscan.com/
     host: https://bsc-dataseed1.binance.org
+  xdai:
+    explorer: https://blockscout.com/poa/xdai
+    cmd: ganache-cli
+    cmd_settings:
+      accounts: 50
+      mnemonic: brownie
+      fork: https://dai.poa.network
+      default_balance: 500 ether
+      chain_id: 100
   bsc-fork:
     id: bsc-fork
     cmd: ganache-cli
@@ -26,6 +35,15 @@ networks:
       gas_limit: 12000000
       mnemonic: brownie
       port: 8545
+  xdai-fork:
+    explorer: https://blockscout.com/poa/xdai
+    cmd: ganache-cli
+    cmd_settings:
+      accounts: 50
+      mnemonic: brownie
+      fork: https://dai.poa.network
+      default_balance: 500 ether
+      chain_id: 100
 
 
 project_structure:
