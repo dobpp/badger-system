@@ -14,6 +14,8 @@ class NetworkManager:
             return "eth"
         if re.match(r"(?:bsc|binance)", s):
             return "bsc"
+        if re.match(r"(?:xdai)", s):
+            return "xdai"
         return None
 
     def get_active_network(self):

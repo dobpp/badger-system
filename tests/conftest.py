@@ -107,11 +107,16 @@ bscSettsToRun = [
     "native.pancakeBnbBtcb",
 ]
 
+xdaiSettsToRun = [
+    "native.sushiWbtcEth",
+]
+
 runTestSetts = True
 
 networkSettsMap = {
     "eth": settsToRun,
     "bsc": bscSettsToRun,
+    "xdai": xdaiSettsToRun
 }
 # NB: This is expected to fail if the network ID does not exist.
 baseSettsToRun = networkSettsMap[network_manager.get_active_network()]

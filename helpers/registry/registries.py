@@ -4,6 +4,7 @@ from dotmap import DotMap
 from enum import Enum
 from helpers.registry.eth_registry import eth_registry
 from helpers.registry.bsc_registry import bsc_registry
+from helpers.registry.xdai_registry import xdai_registry
 from helpers.registry.artifacts import artifacts
 
 from helpers.network import network_manager
@@ -33,6 +34,7 @@ class ContractRegistries:
         self.registries = {}
         self.registries["eth"] = eth_registry
         self.registries["bsc"] = bsc_registry
+        self.registries["xdai"] = xdai_registry
 
     def has_registry(self, chain: str):
         return chain in self.registries.keys()
