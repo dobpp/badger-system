@@ -25,7 +25,7 @@ def queue_upgrade_strategy(
     # else:
     logic = badger.getLogic(artifactName)
     console.print("Preparing Upgrade", logic.address, logic.getName())
-    return badger.queue_upgrade_strategy(strategyID, logic)
+    return badger.queue_upgrade_sett_strategy(strategyID, logic)
 
 
 def main():
