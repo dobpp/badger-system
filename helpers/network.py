@@ -48,6 +48,8 @@ class NetworkManager:
         elif active == "bsc":
             return "badger-deploy-bsc.json"
             # return "badger-test-bsc.json"
+        elif active == "xdai":
+            return "deploy-xdai.json"
         else:
             raise Exception(
                 "No badger deploy file registered for network {}".format(active)

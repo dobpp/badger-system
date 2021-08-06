@@ -1,0 +1,95 @@
+{
+    "deployer": "0xDA25ee226E534d868f0Dd8a459536b03fEE9079b",
+    "guardian": "0x29F7F8896Fb913CF7f9949C623F896a154727919",
+    "keeper": "0x872213E29C85d7e30F1C8202FC47eD1Ec124BB1D",
+    "root_proposer": "0x68de9E2b015904530593426d934CE608e117Fa7A",
+    "root_approver": "0x626f69162ea1556a75dd4443d87d2fe38dd25901",
+    "earner": "0x46099Ffa86aAeC689D11F5D5130044Ff7082C2AD",
+    "harvester": "0x73433896620E71f7b1C72405b8D2898e951Ca4d5",
+    "external_harvester": "0x64E2286148Fbeba8BEb4613Ede74bAc7646B2A2B",
+    "rebaser": "0x10DC486A5c0d7e0315637ee5A22E54b6ECFCf676",
+    "create2EOA": "0x3143373CA332EFf234174f7bCf04bcd9A5526BB8",
+    "infra": {
+        "create2Deployer": "0x04254eba6Ba1EA9516A753C85D450E06c1Eba5a3",
+        "proxyAdminPassThrough": "0x3F204A06AB6A6B6Bb437B58Ae39B56B906927D95",
+        "proxyAdminDev": "0xC4fE5Db8D3c0d0f410D6A7496Faa4f1658d2a301",
+        "proxyAdminTimelock": "0x9208E6c28959c47E58344d5f84d88F07Fca96CFC",
+        "bricked": "0x19a21Fbba3561aD53e70268caFA3D3c8db05A79C",
+        "governanceTimelock": "",
+        "registry": "0x22765948A3d5048F3644b81792e4E1aA7ea3da4a"
+    },
+    "contracts": {
+        "governanceTimelock": {
+            "address": "",
+            "salt": "0"
+        },
+        "registry": {
+            "address": "",
+            "salt": "1"
+        },
+        "keeperAccessControl": {
+            "address": "",
+            "salt": "2"
+        },
+        "badgerTree": {
+            "address": "",
+            "salt": "3"
+        }
+    },
+
+    "devMultisig": "0x54c4cAdd3501B5eb3F2e45F1aDe8f58b81ca9799",
+    "techMultisig": "0x54c4cAdd3501B5eb3F2e45F1aDe8f58b81ca9799",
+    "opsMultisig": "0x54c4cAdd3501B5eb3F2e45F1aDe8f58b81ca9799",
+    "logic": {
+        "SmartVesting": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "SmartTimelock": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "RewardsEscrow": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "BadgerGeyser": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "BadgerTree": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "BadgerTreeV2": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "BadgerHunt": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "SimpleTimelock": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "Controller": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "Sett": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "SettV1": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "SettV3": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "SettV4": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StakingRewards": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StakingRewardsSignalOnly": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyBadgerRewards": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyBadgerLpMetaFarm": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyHarvestMetaFarm": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyCurveGaugeTbtcCrv": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyCurveGaugeSbtcCrv": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyCurveGaugeRenBtcCrv": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "HoneypotMeme": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategySushiLpOptimizer": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategySushiBadgerWbtc": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "UFragments": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "UFragmentsPolicy": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "DiggRewardsFaucet": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "DiggSett": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyDiggRewards": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategySushiDiggWbtcLpOptimizer": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "StrategyDiggLpMetaFarm": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d",
+        "DiggDistributor": "0x9a7d4078068ebb39ffe471898212353cf661580c",
+        "SimpleTimelockWithVoting": "0xa494351C6f392908321Ea90665628f7f521FE809",
+        "DiggSeeder": "0xfcC357420368195eE1F4B387d9d4335d26b0695F",
+        "BadgerRewardsManager": "0xf101Be274FC6cd72CF5fE726fa2e938Ea7401E87",
+        "UnlockScheduler": "0xC63d8A22D18dd42a9De8343Fd7C888bdA3E7516d",
+        "AffiliateTokenGatedUpgradeable": "0x9313cB1AAaD4E600DBd7Ed70f76fB8288EA84138",
+        "VipCappedGuestListWrapperUpgradeable": "0xa6aB825f86D9fDaFe9528f34f089A8473A3D85d3",
+        "SimpleWrapperGatedUpgradeable": "0xc0a972a3cf8e52167589694d135abb66409f9b30",
+        "GatedProxy": "0x1ba9d948c1c4f0cfb0ecaf57b743bb4045b87497",
+        "RewardsLogger": "0x96B3f82782a62e4dcCb236F86665C550F6C0b6C0",
+        "VipCappedGuestListBbtcUpgradeable": "0x6D8Bbe75d04725948A84AcFa1C1E91406A5a8ccb",
+        "Disperse": "0x332937d0bFF49E2292C83CA8d8Fdd58296C4AF49",
+        "StabilizeStrategyDiggV1": "0xFB688967BaC33AbD93DA18Ac0cBF1A69Cd5f0093",
+        "StabilizeDiggSett": "0x3ee8ECEF1c5D6B924a03A32eFF4233d3dE5190E5",
+        "DiggTreasury": "0x132069EA2E57b44C53C60697FD37453Afcae2708",
+        "StrategyConvexLpOptimizer": "0xAB10f878bD27ae01DF36Ba645E458f7dbca7AA46",
+        "StrategyConvexStakingOptimizer" :"0x01d10fdc6b484BE380144dF12EB6C75387EfC49B",
+        "StrategyCvxHelper": "0x0172B8110b47448E32Ea9e4f291dB461Ee82D1d9",
+        "StrategyCvxCrvHelper": "0x440E52dA3623203b0bc76FCae62429F2D4521173"
+    },   "testMultisig": "0xA70a82Aad2723a04A4f704e9333784367B5Bfe5d"
+}

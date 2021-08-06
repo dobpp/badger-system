@@ -16,13 +16,7 @@ networks:
     host: https://bsc-dataseed1.binance.org
   xdai:
     explorer: https://blockscout.com/poa/xdai
-    cmd: ganache-cli
-    cmd_settings:
-      accounts: 50
-      mnemonic: brownie
-      fork: https://dai.poa.network
-      default_balance: 500 ether
-      chain_id: 100
+    host: https://dai.poa.network
   bsc-fork:
     id: bsc-fork
     cmd: ganache-cli
@@ -36,14 +30,17 @@ networks:
       mnemonic: brownie
       port: 8545
   xdai-fork:
-    explorer: https://blockscout.com/poa/xdai
+    id: xdai-fork
     cmd: ganache-cli
+    host: http://127.0.0.1
     cmd_settings:
-      accounts: 50
+      timeout: 120
+      accounts: 10
+      evm_version: istanbul
+      fork: xdai
+      gas_limit: 12000000
       mnemonic: brownie
-      fork: https://dai.poa.network
-      default_balance: 500 ether
-      chain_id: 100
+      port: 8545
 
 
 project_structure:
